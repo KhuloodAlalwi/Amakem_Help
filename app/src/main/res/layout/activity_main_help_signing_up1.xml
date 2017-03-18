@@ -6,11 +6,56 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.amakem_help.MainActivityHelpSigningUp1">
 
+<RelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="495dp"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="d"
+        android:textColor="#15AFD8"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Download Amaken for android."
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="12dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="To download and install Amaken app in your Android phone, head to the google play store and.Only devices with 5.0 or newer are supported."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="57dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="Follow these steps to download:
+1. Tap google play icon on your android device.
+2. Tap search
+3. In the search box type Amaken. Tap search
+4. From the resulte tap Amaken icon.
+5. Tap install.
+7. open the app.
+8. Tap sign up if you don't have an account."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="111dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
 </android.support.constraint.ConstraintLayout>
