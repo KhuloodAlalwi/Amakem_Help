@@ -18,9 +18,9 @@ public class MainActivityHelpLegalAndPrivacy extends AppCompatActivity {
         setContentView(R.layout.activity_main_help_legal_and_privacy);
         listView= (ListView)findViewById(R.id.help_legal_and_privacy);
         String[] help = new String[] {
-                "Amaken Guidlines",
-                "Privacy",
-                "Permission",
+                "Amaken's Community Guidlines",
+                "Privacy Policy",
+                "Amaken App Permission",
         };
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, help);
         listView.setAdapter(adapter);
@@ -30,16 +30,16 @@ public class MainActivityHelpLegalAndPrivacy extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 switch (position){
                     case 0:
-                        Intent overviewActivity = new Intent(MainActivityHelpLegalAndPrivacy.this,MainActivityHelpSigningUp1.class);
+                        Intent overviewActivity = new Intent(MainActivityHelpLegalAndPrivacy.this,MainActivityHelpLegalAndPrivacy1.class);
                         startActivity(overviewActivity);
 
                         break;
                     case 1:
-                        Intent signingUpActivity = new Intent(MainActivityHelpLegalAndPrivacy.this,MainActivityHelpSigningUp2.class);
+                        Intent signingUpActivity = new Intent(MainActivityHelpLegalAndPrivacy.this,MainActivityHelpLegalAndPrivacy2.class);
                         startActivity(signingUpActivity);
                         break;
                     case 2:
-                        Intent legalPrivacyActivity = new Intent(MainActivityHelpLegalAndPrivacy.this,MainActivityHelpSigningUp3.class);
+                        Intent legalPrivacyActivity = new Intent(MainActivityHelpLegalAndPrivacy.this,MainActivityHelpLegalAndPrivacy3.class);
                         startActivity(legalPrivacyActivity);
 
                         break;

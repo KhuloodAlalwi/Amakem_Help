@@ -19,10 +19,10 @@ public class MainActivityHelpSigningUp extends AppCompatActivity {
         setContentView(R.layout.activity_main_help_signing_up);
         listView= (ListView)findViewById(R.id.help_signing_up);
         String[] help = new String[] {
-                "Download Amaken app for android",
-                "Create Account",
-                "Choosing Category",
-                "Add place or event"
+                "Download Amaken for android",
+                "Create Amaken Account",
+                "Select Categories",
+                "Add Place or Event"
         };
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, help);
         listView.setAdapter(adapter);

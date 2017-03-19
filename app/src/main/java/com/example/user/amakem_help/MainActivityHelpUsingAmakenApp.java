@@ -21,13 +21,14 @@ public class MainActivityHelpUsingAmakenApp extends AppCompatActivity {
         String[] help = new String[] {
                 "Home Page",
                 "Add photo or review to place/event",
-                "Adjust Notification",
+               // "Adjust Notification",
                 "Invite Friend to use Amaken",
-                "Places you liked",
-                "Places you Bookmarked",
-                "Places you reviewd",
-                "Change Interests",
-                "Change place/event information"
+              //  "Places you liked",
+              //  "Places you Bookmarked",
+              //  "Places you reviewd",
+               // "Change Interests",
+               // "Change place/event information"
+                "Profile"
 
 
         };

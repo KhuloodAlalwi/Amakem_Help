@@ -6,11 +6,51 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.amakem_help.MainActivityHelpSigningUp2">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tesdf"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#15AFD8"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Creat Amaken account"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="In Amaken app you can sign up as a business or user."
+            android:layout_below="@+id/textView5"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Business sign up is made for business owner so you can add you  or even name, details, contacts, and location you also can use the app as a user."
+            android:layout_below="@+id/textView15"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="User sign up is made for locals and tourisms who can use the app to find places that they want to visit and read the place review and details."
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
