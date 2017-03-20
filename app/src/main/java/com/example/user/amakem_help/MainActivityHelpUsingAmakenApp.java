@@ -22,7 +22,7 @@ public class MainActivityHelpUsingAmakenApp extends AppCompatActivity {
                 "Home Page",
                 "Add photo or review to place/event",
                // "Adjust Notification",
-                "Invite Friend to use Amaken",
+                "Invite Friend to use Amaken app",
               //  "Places you liked",
               //  "Places you Bookmarked",
               //  "Places you reviewd",
